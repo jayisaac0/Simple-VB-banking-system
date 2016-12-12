@@ -1,0 +1,17 @@
+E:\VB\kcb\kcb\bin\Release\kcb.exe.config
+E:\VB\kcb\kcb\bin\Release\KenyaCommercialBank.mdb
+E:\VB\kcb\kcb\bin\Release\kcb.exe
+E:\VB\kcb\kcb\bin\Release\kcb.pdb
+E:\VB\kcb\kcb\bin\Release\kcb.xml
+E:\VB\kcb\kcb\obj\Release\kcb.frmAccount.resources
+E:\VB\kcb\kcb\obj\Release\kcb.frmAdministrator.resources
+E:\VB\kcb\kcb\obj\Release\kcb.frmApplyForLoan.resources
+E:\VB\kcb\kcb\obj\Release\kcb.Form1.resources
+E:\VB\kcb\kcb\obj\Release\kcb.frmLogin.resources
+E:\VB\kcb\kcb\obj\Release\kcb.Resources.resources
+E:\VB\kcb\kcb\obj\Release\kcb.frmRegister.resources
+E:\VB\kcb\kcb\obj\Release\kcb.termsAndConditions.resources
+E:\VB\kcb\kcb\obj\Release\kcb.vbproj.GenerateResource.Cache
+E:\VB\kcb\kcb\obj\Release\kcb.exe
+E:\VB\kcb\kcb\obj\Release\kcb.xml
+E:\VB\kcb\kcb\obj\Release\kcb.pdb

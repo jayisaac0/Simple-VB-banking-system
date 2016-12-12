@@ -1,0 +1,246 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="txtTerms.Text" xml:space="preserve">
+    <value>KCB ONLINE BANKING AGREEMENT AND DISCLOSURE
+This Online Banking Agreement and Disclosure ("Agreement") describes your rights and obligations as a user of the Online Banking service or the Bill Payment service ("Services"). It also describes the rights and obligations of [Bank Name] ("Bank"). Please read this Agreement carefully. By requesting and using one of these Services, you agree to comply with the terms and conditions of this Agreement.
+Definitions
+The following definitions apply in this Agreement:
+"Authorized Representative" refers to a person with authority (with respect to the account);
+"Bill Payment" is the online service that enables the scheduling of bill payments using a personal computer;
+"ISP" refers to your Internet Service Provider;
+"Online Banking" is the internet-based service providing access to your Bank account(s);
+"Online Account" means the Bank account from which you will be conducting transactions using a Service;
+"Password" is the customer-generated code selected by you for use during the initial sign-on, or the codes you select after the initial sign-on, that establishes your connection to the Service;
+"PC" means your personal computer which enables you, with the Internet browser and ISP, to access your Online Account;
+"Time of day" references are to Eastern] [Mountain] [Pacific] Standard Time;
+"User ID" is the Bank-generated identification code assigned to you for your connection to the Service;
+"We", "us", or "Bank" refer to Pegasus Bank which offers the Services and which holds the accounts accessed by the Services
+"You" or "your" refers to the owner of the account or the authorized representative; and
+"Enhanced Login Security" or "Multi-Factor Authentication (MFA)" means enhanced security beyond User ID and password in order to access your online banking account.
+Access to Services
+The Bank will provide instructions on how to use the Online Banking and Bill payment Services. You will gain access to your Online Accounts through the use of your Internet-enabled device, your ISP, your Password and your User ID. You may access your Online Accounts 24 hours a day, seven (7) days a week. However, availability of the Services may be suspended for brief periods of time for purposes of maintenance, updating and revising the software.
+For purposes of transactions, the Bank's business days are [Monday through Friday], excluding holidays and weekends. All Online Banking transaction requests received after [x:xx] p.m. on business days and all transactions which are requested on Saturdays, Sundays, or holidays on which the Bank chooses to remain closed, will be processed on the Bank's next business day. The Bank's business day begins at 9:00 a.m.
+Banking Transactions with Online Banking
+Account Access. You may access up to [five (5)] Bank personal accounts online. One of these accounts must be a primary checking account. Once you have selected your primary account you may select up to [four (4)] additional accounts including other checking, savings, certificates of deposit or loan accounts.
+Transfer of Funds. In addition to viewing account information, you may use Online Banking to conduct the transfer of funds. You may make one-time transfers or schedule future or recurring transfers such as transfers to make loan payments. You may transfer funds among your checking accounts, savings accounts and money market accounts.
+NOTE :Because regulations require the Bank to limit preauthorized transfers (including Online Banking transfers), the following limitations apply:
+Statement and Passbook Savings account.You can make no more than [six (6)] transfers per statement period by preauthorized or automatic transfer or by telephone or Online Banking.
+Money Market Savings Account. You can make no more than [six (6)] transfers per statement period by preauthorized or automatic transfer or by telephone or Online Banking and no more than [three (3)] of these may be by check, draft or debit card. Please note: If there are not sufficient funds in the account, we cannot complete this transfer. However, future recurring transfers will not be impacted.
+Additional Services. New services may be introduced for Online Banking from time to time. The Bank will notify you of the existence of these new services. By using these services when they become available, you agree to be bound by the rules that will be made available to you concerning these services.
+Schedule of Fees
+The Bank offers the benefits and convenience of the Online Banking Service to you free. [The Bill Payment Service is free for the first month.] [Thereafter, the] [The] Bill Payment Service will be a flat fee of [$3.95] a month, which includes 15 bill payments. All bill payments over 15 are an additional [$0.50] each. However, the bill payment fee is waived if your primary checking account maintains a monthly average balance of [$3,000]. The fee will be deducted automatically from your Bill Payment account.
+Statements
+You will continue to receive your regular account statement either monthly or quarterly, depending on the type of account.
+Use of Your Security Password
+You are responsible for keeping your password and Online Account information confidential. In order to protect yourself against fraud, you should adhere to the following guidelines:
+Do not give out your account information, Password, or User ID;
+Do not leave your PC unattended while you are in the Bank's Online Banking Site;
+Never leave your account information within range of others; and
+Do not send privileged account information (account number, Password, etc.) in any public or general e-mail system.
+If you believe your password has been lost or stolen, or if you suspect any fraudulent activity on your account, call the Bank immediately at [xxx-xxx-xxxx] between the hours of [9:00 a.m. to 4:00 p.m.], Monday through Friday. Telephoning the Bank is the best way of minimizing your losses and liability. (See; Section XII)
+If you believe your Password has been lost or stolen, please use the Password change feature within the Online Banking section of the Web site to change your Password.
+ Electronic Mail (E-mail)
+If you send the Bank an e-mail message, the Bank will be deemed to have received it on the following business day. You should not rely on e-mail if you need to report an unauthorized transaction from one of your accounts or if you need to stop a payment that is scheduled to occur.
+NOTE: E-mail transmissions outside of the Online Banking site are not secure. We advise you not to send us or ask for sensitive information such as account numbers, Password, account information, etc. via any general or public e-mail system. If you wish to contact us electronically, please use the Guest Book provided in our Online Banking site. Use this secure form to e-mail the Bank regarding inquiries about an electronic funds transfer error resolution, reporting unauthorized transactions, or contacting the Bank regarding other concerns of a confidential nature.
+  Bill Payment Services
+Description of Service. The Bill Payment Service permits you to use your Internet-enabled device to direct payments from your designated online Bill Payment Account to third parties you wish to pay. Your Bill Payment Account must be a primary checking account. Through the Bill Payment Service, you can pay bills from your Bill Payment Account to businesses or individuals.
+All payments you make will be deducted from the checking account that you designate as your Bill Payment Account for the Bill Payment Service. Any payments you wish to make through this Service must be payable in U.S. dollars to a payee located in the continental United States. We reserve the right to restrict types of payees to whom payments may be made using the Service from time to time. You should not use the Bill Payment Service to make payments to settle securities purchases, payments to interest bearing accounts, tax payments, or court ordered payments. Payments for these payees will be your sole responsibility if delayed or improperly processed or credited.
+Scheduling Payments. Funds must be available in your Bill Payment Account on the scheduled payment date. If the date you schedule a payment to be initiated falls on a non-business day (Saturday, Sunday, or holiday), funds must be available in your Bill Payment Account the following business day (e.g. Monday). After funds are withdrawn from your Bill Payment Account to make a payment, we may make the payment either by transferring funds electronically to the payee or by mailing the payee a check.
+You may choose to schedule payments to recur in the same amount at regular weekly, monthly, or semi-monthly intervals. When you create a new payee in the Bill Payment Service, it takes two (2) business days to set up the payee to receive payments. You should schedule a payment to a new payee at least ten (10) business days before any payment due date, to allow us time to set up the payee and verify information about your account with the payee.
+For all subsequent payments, you agree to allow at least four (4) to ten (10) business days between the date you schedule a payment to be initiated and the payment due date (that is, the due date shown on your invoice or provided in your agreement with the payee, not taking into account any applicable grace period). If the payment is an Automatic Clearing House (ACH) electronic payment, it will take up to four (4) business days to reach the payee. However, if the company or person that you are paying cannot accept an electronic payment, the Bill Payment Service will send a check that may take up to ten (10) business days. If you do not follow these time frames, you will be fully responsible for all late fees, finance charges or other actions taken by the payee. If you schedule your payment and follow all instructions provided, but the payment is not received by the payee in a timely manner, the Bank will work with the payee on your behalf to reverse any late fees or charges.
+No Duty to Monitor Payments. The Bank is only responsible for exercising ordinary care in processing and sending payments upon your authorization in accordance with this Agreement. The Bank will not be liable in any way for damages you incur for any of the following reasons:
+insufficient funds in your Bill Payment Account to make the payment on the processing date;
+delays in mail delivery;
+changes to the payee's address or account number unless we've been advised of the change in advance
+the failure of any payee to correctly account for or credit the payment in a timely manner, or
+any other circumstances beyond the control of the Bank.
+If the session during which you schedule a payment or transfer ends by 2:00 p.m., the Bank will be considered to have received it on that day. Otherwise, it will be considered received on the following business day. For all entries made using the Services, the time recorded by the Online Banking Service will be considered the official time of the transaction.
+If your Bill Payment Account does not have sufficient funds to make a payment as of the date the payment is debited to your account, the Bill Payment Service will automatically block future Bill Payment Service until the account has sufficient funds to make the payment. The Bank will attempt to notify you by e-mail or U.S. Postal Mail, but the Bank shall have no obligation or liability if it does not complete a payment because there are insufficient funds in your account to process a payment. In all cases, you are responsible for either contacting the Service at [1-800-xxx-xxxx] to either make alternate arrangements for the payment or reschedule the payment through the Service. In the case of fixed payments, only the payment currently scheduled will be impacted. Fixed payments scheduled for future dates will not be affected.
+Cancel or Change Payment Instructions. Payments must be changed or canceled using the Service prior to 12:00 p.m. on the business day the transaction is scheduled to be initiated. If you ask us to cancel a payment after it is issued and we agree to do so, we may charge you a stop payment fee. Stop payment orders whether oral, written, or electronic, will be in effect for a period of six (6) months. If requested by the Bank, you will confirm any stop payment order in writing. After six (6) months, any stop payment will terminate and must be renewed in order to continue in effect. The Bank may pay any item that is presented following the lapse of any stop payment order.
+No Signature Required. When any payment or other online Service generates items to be charged to your account, you agree that we may debit your Bill Payment account without requiring your signature on the item and without prior notice to you.
+Multiple Person Bill Payment Accounts. If more than one person has access to a Bill Payment account, each person may individually enroll in the Bill Pay service. Each enrolled person needs a unique password but may choose to use the same payee list. Each individual may terminate her/his enrollment in the Bill Payment service without affecting the Service for any other person enrolled in that Bill Payment account. However, any enrolled person may terminate the Bill Payment service that will terminate the service for all enrolled persons on that Bill Payment account.
+Linked Accounts
+All accounts with the Bank that you enroll in a service will be linked by the tax identification numbers of the persons authorized to access the account. The linked accounts will appear together without regard to the ownership of the accounts. For example, if an authorized user of a linked account accesses the Service, that authorized user will be able to view and access at a single time the following accounts:
+the accounts of the business for which that person is an authorized user;
+the accounts of any other business for which that person is an authorized user; and
+any consumer accounts for which the person is a co-owner or authorized signer.
+Business Accounts
+If you are a business, any authorized user of your business is authorized on such terms, conditions, and agreements as we may require to:
+enter into this Agreement, as amended from time to time;
+access each account of yours in any manner and for any purpose available through the Service, whether now available or available at some time in the future; and
+use any Online banking service in any manner and for any purpose available through the Service, whether now available or available at some time in the future.
+Term and Termination
+Term. This Agreement will become effective on the Effective Date and shall remain in full force and effect until termination in accordance with the following provisions.
+Termination for Cause. We may immediately terminate your electronic banking privileges (including the Bill Payment Service) without notice to you under the following circumstances:
+you do not pay any fee required by this Agreement when due or
+you do not comply with the agreement governing your deposit or loan accounts or your accounts are not maintained in good standing.
+We will promptly notify you if we terminate this Agreement or your use of the Services for any other reason.
+Termination for Convenience. To terminate this Agreement, you must notify the Bank and provide your name, address, the Service(s) you are discontinuing, and the termination date of the Service(s). When Bill Payment is terminated, any prescheduled bill payments made through Online Banking will also be terminated. You may notify the Bank by one of the following methods:
+By sending an e-mail to [bank email address].
+By calling [(xxx) xxx-xxxx].
+By writing a letter and either sending it to the following address: Attention: [Bank Address] or giving it to a Customer Service Representative at any of the Bank's locations.
+If you are not paying a monthly service charge for the Service, we may convert your account to inactive status if you do not sign on to the Service or have any transaction scheduled through the Service during any consecutive 90-day period. If your account is considered inactive, you must contact us to have the Service activated before you will be able to schedule any transaction through the Service.
+ Electronic Fund Transfer Provisions For Consumers
+Applicability. These provisions are only applicable to online electronic fund transfers that credit or debit a consumer's checking, savings or other asset account and are subject to the Federal Reserve Board's Regulation E (an "EFT"). When applicable, the Bank may rely on any exceptions to these provisions that are contained in Regulation E. All terms that are not defined in this Agreement but which are defined in Regulation E shall have the same meaning when used in this section.
+Your Liability. The following determines your liability for any unauthorized EFT or any series of related unauthorized EFTs:
+If you notify the Bank within two (2) business days after your password was lost or stolen, your liability will not exceed $50.00 or the amount of the unauthorized EFTs that occur before notification, whichever is less
+If you fail to notify the Bank within two (2) business days after your password was lost or stolen, your liability will not exceed the lesser of $500.00 or the total of:
+$50.00 or the amount of unauthorized EFTs that occur within the two (2) business days; and
+the total of authorized EFTs which occur during the two (2) days before notification to the Bank, provided the Bank establishes that these EFTs would not have occurred had the Bank been notified within that two-day period.
+You must report an unauthorized EFT that appears on your periodic statement, no later than 60 days of transmittal of the statement to avoid liability for subsequent transfers. Your liability will not exceed the amount of the unauthorized EFTs that occurred with the 60-day period. You may also be liable for the amounts as described in sections 1 and 2 above.
+If the report is made orally, we will require that you send the complaint or question in writing within 20 business days. We will notify you with the results of the investigation within 10 business days and will correct any error promptly. If more time is needed, however, we may take up to 45 days to investigate a complaint or question. If this occurs, we will credit your account within 10 business days for the amount you think is in error. This will allow you to use the money during the time it takes us to complete our investigation. If your complaint or question is not received in writing within 10 business days, we may not credit your account until the investigation is completed. If an alleged error involves an electronic fund transfer outside a state or territory or possession of the United States, the applicable time periods for action by us are 20 business days (instead of 10) and 90 calendar days (instead of 45). If we determine that no error occurred, we will send you a written explanation within three business days after the investigation is complete. You may request copies of the documents that were used in the investigation.
+You may notify the Bank by telephone, writing. Notification by general e-mail to report an unauthorized transaction is not secure and therefore not advised.
+Telephone Numbers and Addresses. In case of errors or questions regarding an Online Banking or Bill Payment transaction, call (xxx) xxx-xxxx or write us at: Attn: Electronic Banking Services Department, Bank Address.
+We must hear from you at the telephone number or address, listed above, no later than 60 days after we sent you the FIRST statement on which the problem or error appeared. We will need:
+Your name and account number
+A description of the error or the transfer in question and an explanation concerning why you believe it is an error or need more information
+The dollar amount of the suspected error and date on which it occurred.
+ Liability
+Our Liability. This section explains our liability to you only to the extent that any other agreements, notices or disclosures have not separately disclosed our liability. In no event shall we be liable to you for failure to provide access to your Online Banking or Bill Payment services accounts. Unless otherwise required by applicable law, we are only responsible for performing the Online Banking and Bill Payment services as delineated in this Agreement. We will be liable for the amount of any material losses or damages incurred by you and resulting directly from our gross negligence.
+We will not be liable to you in the following instances:
+If through no fault of the Bank, you do not have enough money in your account to make the transfer.
+If circumstances beyond our control (such as fire, flood, power outage, equipment or technical failure or breakdown) prevents the transfer despite reasonable precautions that we have taken.
+If there is a hold on your account, or if access to your account is blocked, in accordance with banking policy.
+If your funds are subject to a legal proceeding or other encumbrance is restricting the transfer.
+If your transfer authorization terminates by operation of law.
+If you believe someone has accessed your accounts without your permission and you fail to notify the Bank immediately.
+If you have not properly followed the instructions on how to make a transfer included in this Agreement.
+If we have received incomplete or inaccurate information from you or a third party involving the account or transfer.
+If we have a reasonable basis for believing that unauthorized use of your Password or account has occurred or may be occurring or if you default under this Agreement, the deposit account agreement, a credit agreement or any other agreement with us, or if we or you terminate this Agreement.
+IN NO EVENT SHALL WE HAVE ANY LIABILITY TO YOU OR ANY THIRD PARTY FOR ANY INDIRECT, SPECIAL OR CONSEQUENTIAL DAMAGES RESULTING FROM OR ARISING OUT OF THIS AGREEMENT.
+Indemnification. You agree to indemnify, defend and hold us, our affiliate companies, directors, officers, employees and agents harmless against any third party claim, demand, suit, action or other proceeding and any expenses related to an Online Banking or Bill Payment account.
+Third Parties. We are not liable for any loss or liability resulting from any failure of your equipment or software, or that of an internet browser provider such as Netscape (Netscape Navigator browser) or Microsoft (Microsoft Explorer browser), by an internet access provider, or by an online service provider, nor will we be liable for any direct, indirect, special or consequential damages resulting from your access to or failure to access an Online Banking or Bill Payment account.
+Virus Protection. The Bank is not responsible for any electronic virus or viruses that you may encounter. We suggest that you routinely scan your PC using a virus protection product. An undetected virus may corrupt and destroy your programs, files, and your hardware.
+  General Terms and Conditions
+Bank Agreements. In addition to this Agreement, you and the Bank agree to be bound by and comply with the requirements of the agreements applicable to each of your Online Accounts. Your use of the Online Banking Service or the Bill Payment Service is your acknowledgment that you have received these agreements and intend to be bound by them. You should review other disclosures including the charges that may be imposed for electronic funds transfers or the right to make transfers listed in the fee schedules accompanying those disclosures and the fee schedule contained in this Agreement. We will automatically deduct the fees related to this Service from your Bill Payment Account each month.
+Changes and Modifications. The Bank may modify the terms and conditions applicable to the Services from time to time. We may send any notice to you via e-mail and you will have to be deemed to have received it three days after it is sent. The revised terms and conditions shall be effective at the earliest date allowed by applicable law. We reserve the right to terminate this Agreement and your use of the Services in whole or in part at any time without prior notice.
+Assignment. We may assign this Agreement to an affiliate of the Bank or any successor in interest in the event of a merger, reorganization, change of control, acquisition or sale of all or substantially all assets of the business to which this Agreement is related without the other party's prior written consent.
+Notices. Unless otherwise required by applicable law, any notice or written communication given pursuant to this Agreement may be sent to you electronically.
+Disclosure of Information. We will only disclose information to third parties about your account or transfers you make under the following circumstances:
+where it is necessary for the provision of Online Banking and for completing transfers;
+in order to verify the existence and condition of your account for a third party, such as a credit bureau or merchant;
+in order to comply with government or court orders, or other reporting requirements;
+if you give us your permission;
+to the Bank affiliated companies.
+Governing Law. This Agreement is governed by the laws of the State of [California] and applicable federal law.
+
+</value>
+  </data>
+</root>
